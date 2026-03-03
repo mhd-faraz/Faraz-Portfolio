@@ -1,7 +1,6 @@
 # Mohammad Faraz — Developer Portfolio
 
-🌐 **Live Demo:** [faraz-portfolio.vercel.app](https://faraz-portfolio.vercel.app)
-
+🌐 🌐 **Live Demo:** [faraz-portfolio-ivvo-xi.vercel.app](https://faraz-portfolio-ivvo-xi.vercel.app)
 A modern, fully responsive developer portfolio built with **React**, **Three.js**, and **GSAP** — featuring cinematic 3D animations, scroll-triggered effects, and a complete showcase of projects, skills, and experience.
 
 ---
