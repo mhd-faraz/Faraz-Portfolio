@@ -1,50 +1,23 @@
-# Mohammad Faraz — Developer Portfolio
+# Mohammad Faraz | Developer Portfolio
 
-🌐 🌐 **Live Demo:** [faraz-portfolio-ivvo-xi.vercel.app](https://faraz-portfolio-ivvo-xi.vercel.app)
-A modern, fully responsive developer portfolio built with **React**, **Three.js**, and **GSAP** — featuring cinematic 3D animations, scroll-triggered effects, and a complete showcase of projects, skills, and experience.
+**Live:** mohammadfaraz.vercel.app
 
----
+A clean, responsive portfolio for a software engineer focused on backend systems, the MERN stack and Generative AI. Dark theme with an orange accent, a vertical side nav, and light scroll animations.
 
-## ✨ Features
+## Highlights
 
-- 🎬 **3D Hero Section** — Three.js particle system with interactive icosahedron and orbital rings
-- ⚡ **Preloader Animation** — Custom wireframe cube intro with signature reveal
-- 🎯 **Scroll Animations** — IntersectionObserver-based reveal effects throughout
-- 📊 **Skill Proficiency Bars** — Animated fill on scroll with domain expertise cards
-- 🃏 **Certificate Flip Cards** — 3D flip reveal with direct certificate links
-- 🧠 **LeetCode Counter** — Animated 200+ problems solved counter
-- 📱 **Fully Responsive** — Mobile-first with hamburger menu
-- 💾 **CV Download** — One-click resume download
-- 🌙 **Dark Cyberpunk Theme** — Cyan & purple gradient aesthetic
+- Wireframe-cube preloader (Three.js) with a signature reveal
+- Vertical side navigation with scroll-spy highlight, mobile hamburger menu, dark/light toggle
+- Animated stats, skill grid with GenAI icons, proficiency bars
+- Experience, six project cards with laptop mockups, certifications, LeetCode counter
+- Contact form that opens a pre-filled Gmail draft, with a scrambling heading effect
+- Fully responsive, keyboard accessible, respects reduced-motion settings
 
----
+## Tech stack
 
-## 🛠️ Tech Stack
+React, Vite, Three.js (preloader only), plain CSS
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
----
-
-## 📂 Sections
-
-| Section | Description |
-|---|---|
-| Hero | 3D particle field, typewriter role animation |
-| About | Animated developer illustration, skill icons |
-| Skills | 16-skill icon grid + Frontend/Backend/DSA proficiency |
-| Experience | Zylu Business Solutions internship details |
-| Projects | 5 projects with live & GitHub links |
-| Achievements | Flip-card certificates + LeetCode stats |
-| Education | Chandigarh University B.E. CSE |
-| Contact | Gmail compose integration, envelope SVG |
-
----
-
-## 🚀 Run Locally
+## Run locally
 
 ```bash
 git clone https://github.com/mhd-faraz/Faraz-Portfolio.git
@@ -53,14 +26,14 @@ npm install
 npm run dev
 ```
 
----
+## Public assets
 
-## 📬 Contact
+Place these in `public/`:
 
-- 📧 [rfaraz5678@gmail.com](https://mail.google.com/mail/?view=cm&to=rfaraz5678@gmail.com)
-- 💼 [github.com/mhd-faraz](https://github.com/mhd-faraz)
-- 🔗 [linkedin.com/in/mohammad-faraz-a27176223](https://linkedin.com/in/mohammad-faraz-a27176223/)
+- `Mohammad_Faraz_Resume.pdf` (resume download)
+- `favicon.svg` (optional, the app also sets the icon itself)
+- `projects/relay.png`, `meet.png`, `resume.png`, `call.png`, `magma.png`, `weather.png` (optional screenshots; mockups show if missing)
 
----
+## Contact
 
-⭐ If you like this portfolio, consider giving it a star!
+rfaraz5678@gmail.com · [GitHub](https://github.com/mhd-faraz) · [LinkedIn](https://linkedin.com/in/mohammad-faraz-a27176223) · [LeetCode](https://leetcode.com/u/Faraz_20/)
