@@ -92,7 +92,7 @@ const CERTS = [
   ["Advanced React.js Development", "Infosys Springboard", "2024", "Hooks, context API, performance and production patterns.", "https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_10648877150323546000_shared/1-6e34963a-e48e-457d-a63e-4cbf6d8369eb.pdf"],
   ["Front-End Web Development Essentials", "Johns Hopkins · Coursera", "2024", "HTML5, CSS3, responsive design and JavaScript fundamentals.", "https://www.coursera.org/account/accomplishments/certificate/839HVLPM88FK"],
 ];
-const COURSES = ["Data Structures & Algorithms", "Object-Oriented Programming", "Database Management Systems", "Computer Networks", "Operating Systems", "Software Engineering", "Web Technologies", "Discrete Mathematics"];
+const COURSES = ["Data Structures & Algorithms", "Object-Oriented Programming", "Database Management Systems", "Computer Networks", "Operating Systems", "Software Engineering", "Web Technologies", "System Design"];
 
 // ─── PROJECT ARTWORK (laptop mockups; drop real screenshots in /public/projects/<key>.png to replace) ───
 const T = (x, y, t, o = {}) => (<text x={x} y={y} fontSize={o.s || 6} fill={o.f || "#cfd3e6"} fontWeight={o.w || 500} textAnchor={o.a || "start"} fontFamily="Montserrat,system-ui,sans-serif">{t}</text>);
@@ -401,7 +401,7 @@ h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;back
 .sub{font-size:clamp(16px,1.5vw,19px);color:var(--muted);max-width:60ch;}
 .sub b{color:var(--fg);font-weight:700;}
 .btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px;}
-.pill{padding:15px 28px;border-radius:999px;font-weight:700;font-size:15px;border:1px solid var(--line);transition:transform .2s,background .2s;display:inline-flex;gap:10px;align-items:center;}
+.pill{padding:15px 28px;border-radius:999px;font-weight:700;font-size:15px;border:1px solid var(--line);transition:transform .2s,background .2s;display:inline-flex;gap:10px;align-items:center;white-space:nowrap;}
 .pill:hover{transform:translateY(-2px);}
 .pill:not(.fill):hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,transparent);}
 .pill.fill{background:var(--accent);color:#1a1208;border-color:var(--accent);}
@@ -503,8 +503,8 @@ h2{font-size:clamp(30px,4.6vw,58px);font-weight:800;letter-spacing:-.03em;line-h
 .send:hover{transform:translateY(-2px);}
 .or{text-align:center;margin-top:72px;font-size:clamp(16px,2vw,21px);color:var(--muted);line-height:1.8;}
 .or a{color:var(--accent);word-break:break-all;}
-.avail{display:flex;justify-content:center;align-items:center;gap:10px;font-size:14px;color:var(--muted);margin-top:18px;text-align:center;}
-.avail i{width:9px;height:9px;border-radius:50%;background:#4ade80;flex:none;}
+.avail{display:block;font-size:14px;color:var(--muted);margin-top:18px;text-align:center;}
+.avail i{display:inline-block;vertical-align:middle;width:9px;height:9px;border-radius:50%;background:#4ade80;margin:-2px 10px 0 0;}
 .soc{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:28px;}
 .soc a{display:inline-flex;gap:10px;align-items:center;padding:12px 22px;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:14.5px;transition:background .2s,border-color .2s;}
 .soc a:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,transparent);}
@@ -544,7 +544,7 @@ footer code{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ac
   .icons{grid-template-columns:repeat(3,1fr);}
   .lc{grid-template-columns:1fr;}
   .courses{grid-template-columns:1fr;}
-  .btns .pill{flex:1;justify-content:center;}
+  .btns .pill{flex:1 1 auto;justify-content:center;padding:14px 18px;font-size:14px;}
 }
 `;
 
